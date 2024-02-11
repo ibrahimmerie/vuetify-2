@@ -1,0 +1,9 @@
+*.cs
+*.js
+Content/
+Controllers/
+Images/
+Mappers/
+node_modules/
+ViewModels/
+Scripts/

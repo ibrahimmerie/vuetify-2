@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "esnext", 
+    "allowUnreachableCode": false,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "typeRoots": ["./typings"],
+    "allowJs": false,
+    "target": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "plugins": [{ "name": "@vuedx/typescript-plugin-vue" }],
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "useDefineForClassFields": false,
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "types": []
+  },
+  "include": ["./src/*.ts", "./src/*.d.ts", "./src/*.vue", "./src/**/*.d.ts", "./src/**/*.vue"],
+  "ts-node": {
+    "transpileOnly": true
+  },
+  "exclude": ["dist", "node_modules"]
+}

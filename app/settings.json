@@ -1,0 +1,29 @@
+{
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "liveshare.presence": true,
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 15,
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "workbench.colorTheme": "GitHub Dark",
+  "redhat.telemetry.enabled": true,
+  "workbench.startupEditor": "none",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "window.zoomLevel": 1,
+  "security.workspace.trust.untrustedFiles": "open"
+}

@@ -1,0 +1,16 @@
+{
+  "routes": [
+    {
+      "route": "/home",
+      "redirect": "/index.html?path=home"
+    },
+    {
+      "route": "/discover",
+      "redirect": "/index.html?path=discover"
+    },
+    {
+      "route": "/settings",
+      "redirect": "/index.html?path=settings"
+    }
+  ]
+}
